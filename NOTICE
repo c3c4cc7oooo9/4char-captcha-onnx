@@ -1,0 +1,10 @@
+4char-captcha-onnx
+Copyright 2026 4char-captcha-onnx contributors
+
+本作品包含的 ONNX 权重，其骨干网络来自：
+    sml2h3/dddd_trainer
+    https://github.com/sml2h3/dddd_trainer
+    许可: Apache License 2.0
+
+改动说明: 冻结并裁剪原骨干，取其输出特征 feat1536，另在其上训练 4 个分类头组成集成。
+原项目版权归其作者所有，本项目对骨干部分的修改同样以 Apache-2.0 发布。
